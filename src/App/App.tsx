@@ -6,7 +6,7 @@ export const App = () => {
 
   return (
     // Note - update the basename value to reflect the location of your application.
-    <BrowserRouter basename="/vite-react-bootstrap-redux-toolkit-ts">
+    <BrowserRouter basename="/local-json-editor">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="*" element={<h1>404</h1>} />
